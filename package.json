@@ -1,0 +1,26 @@
+{
+  "name": "voice-ai-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/formbody": "^8.0.2",
+    "@fastify/websocket": "^11.0.2",
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "form-data": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "twilio": "^5.4.5",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.1"
+  }
+}
